@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #c8f3ea;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+main{
+    display: flex;
+}
+nav{
+    width: 20%;
+    background-color: #eefbf9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+.game-container{
+    background-color: #e5f9f6;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.game-container img{
+    max-height: 3.5rem;
+}
+.profile-picture{
+    width: 5rem;
+    border-radius: 50%;
+}
+.profile-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.small-text{
+font-size: 0.6rem;
+}
+.join-message{
+    background-color: #80cbc2;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+.join-message img{
+max-height: 3rem;
+}
+.join-message h5{
+    max-width: 50%;
+}
